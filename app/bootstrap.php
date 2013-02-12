@@ -1,7 +1,6 @@
 <?php
 
 require $params['rootDir'] . '/vendor/autoload.php';
-require $params['rootDir'] . '/vendor/nette/nette/Nette/loader.php';
 
 // Configure application
 $configurator = new Nette\Config\Configurator();
