@@ -9,4 +9,5 @@ $params = array(
 // require __DIR__ . '/../app/presentation/templates/maintenance.phtml';
 
 // load bootstrap file
-require $params['rootDir'] . '/app/bootstrap.php';
+$container = require $params['rootDir'] . '/app/bootstrap.php';
+$container->getService('application')->run();
